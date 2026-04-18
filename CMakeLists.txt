@@ -48,12 +48,9 @@ catkin_package(
 endif()
 
 # Eigen
-find_package(Eigen3 REQUIRED NO_MODULE)
+find_package(Eigen3 3.3 REQUIRED NO_MODULE)
+set(EIGEN3_INCLUDE_DIR "/usr/local/include/eigen3")
 include_directories(${EIGEN3_INCLUDE_DIR})
-
-# glog
-find_package(Glog REQUIRED)
-include_directories(${GLOG_INCLUDE_DIRS})
 
 # gtsam
 find_package(GTSAM REQUIRED)

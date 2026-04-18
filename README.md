@@ -7,7 +7,8 @@ Precise dynamic model calibration is essential in achieving reliable control of 
 ![Overview](images/README/Overview.png)
 
 ### Dependencies
-    gtsam-4.0.3
+
+gtsam-4.0.3 or gtsam-4.1.0
 
 ### Hardware Framework
 
@@ -17,10 +18,9 @@ We open source the design and code of the TSB at [Google Drive](https://https://
 
 ### Blackbird Dataset
 
-    Aerial_vehicle_calibration_BLACK
-
+Aerial_vehicle_calibration_BLACK
 ![Blackbird](images/README/Blackbird.png)
 
 ### NeuroBEM Dataset
 
-    Batch_Fixed_Lag_Dynamics_NBEM
+Batch_Fixed_Lag_Dynamics_NBEM

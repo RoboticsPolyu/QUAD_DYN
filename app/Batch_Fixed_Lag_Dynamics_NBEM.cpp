@@ -3,7 +3,6 @@
 #include "quadrotor/Dynamics_params.h"
 #include "Marginalization.h"
 
-#include <glog/logging.h>
 #include <yaml-cpp/yaml.h>
 
 using namespace gtsam;
@@ -293,7 +292,7 @@ int main(void)
 
             idx++;
 
-            std::cout << "###################### Start optimization ######################" << std::endl;
+            std::cout << "######################  Optimization Loop ######################" << std::endl;
             smootherBatch.update(dyn_factor_graph, initial_value_dyn, newTimestamps);
             // smootherBatch.calculateEstimate<Pose2>(currentKey).print("Batch Estimate:");
             result = smootherBatch.calculateEstimate();

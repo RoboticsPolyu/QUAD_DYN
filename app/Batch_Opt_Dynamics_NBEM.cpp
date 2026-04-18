@@ -1,8 +1,6 @@
 #include "calibration/Calibration_factor.h"
 #include "quadrotor/Dynamics_params.h"
 
-
-#include <glog/logging.h>
 #include <yaml-cpp/yaml.h>
 
 using namespace gtsam;
